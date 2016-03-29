@@ -39,3 +39,5 @@ object_database/*
 
 *.pyc
 *.pyo
+
+programs/witness_node/data_private_net
