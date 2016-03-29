@@ -49,7 +49,7 @@
         ],[
           10,{
             "symbol3": "5000000000",
-            "symbol4": "3000000000",
+            "symbol4": 3000000000,
             "long_symbol": 5000000,
             "price_per_kbyte": 10
           }
@@ -215,7 +215,7 @@
     "count_non_member_votes": true,
     "allow_non_member_whitelists": false,
     "witness_pay_per_block": 0,
-    "worker_budget_per_day": "50000",
+    "worker_budget_per_day": 50000,
     "max_predicate_opcode": 1,
     "fee_liquidation_threshold": 10000000,
     "accounts_per_fee_scale": 1000,
@@ -228,104 +228,87 @@
       "owner_key": "REX7p7w3xAhEZmEANE3Zz8mFwMj9PcPHK1SphZebMuZzbNTXGF816",
       "active_key": "REX8EbYnS2GRzfUd6AuPQQsudHyAy8YZ4bFeKTj29rz8XeauDZimP",
       "is_lifetime_member": true
-    },
-    {
+    },{
       "name": "fed-reserve-02",
       "owner_key": "REX7XiNpJo8YqQA169qKXghrHPxS4ytvJFybch9LpvSU25pVpAyCi",
       "active_key": "REX5KjcFbmAebhrYDAFNUA8MzNMT993xYhy7U6Z6kf589Vs2S1pC1",
       "is_lifetime_member": true
-    },
-    {
+    },{
       "name": "fed-reserve-03",
       "owner_key": "REX5CLDWWTESvFmAZL36rkxL2BXuPpghY32ytPg1jSd97JpbpSfjn",
       "active_key": "REX74dqZRQmZxn7je9Lde3yZrdYgtwBeoozxY6Y29ZCVEkMrJBnfV",
       "is_lifetime_member": true
-    },
-    {
+    },{
       "name": "fed-reserve-04",
       "owner_key": "REX64XWanE7xt3jB6p6RqfNhG3vjKTsKfw6uM9Y4K9B2ShgUQZf1R",
       "active_key": "REX56w9m3MTwJweVQQePa1RzpYevdLqy7FbiMBBqHXLnmtX1jpvkC",
       "is_lifetime_member": true
-    },
-    {
+    },{
       "name": "fed-reserve-05",
       "owner_key": "REX5Ng7xL8KUQAotxNZr6iaTKPWvKGXVeBGUS87ETzmL9h2XXCg2Y",
       "active_key": "REX6TpE3JSLuCmFnuzNRBXUWzGosiPu643VsR9Si53ypxV7yiPt5U",
       "is_lifetime_member": true
-    },
-    {
+    },{
       "name": "iw01",
       "owner_key": "REX4xQj2fV4BGzCYYwFr2ryoo1MYZzHLfXMd3qsXttwXdCi3ZeYwK",
       "active_key": "REX86tMUFmUWa2XmUaW2DDDaBF1fhVEoVwrjPmficWgQZPh4o4TMZ",
       "is_lifetime_member": true
-    },
-    {
+    },{
       "name": "iw02",
       "owner_key": "REX71e3V61cAqa1gbM5gNYzpkJG5GLH47ZUJW12zjfWvjft8MLpZT",
       "active_key": "REX5K6S9amLC3XAgK4Xr9pzrNsk9kQ2oFENqh8XnUqEuNpJfh4Um3",
       "is_lifetime_member": true
-    },
-    {
+    },{
       "name": "iw03",
       "owner_key": "REX76rsAn9ThskZ74n6n9R2aN4iXS7yEsxX6HhAx49VCLYmAqLHmn",
       "active_key": "REX5RQW4BTQNPzgkyW7ZCaw6uVYStYuP42V4weSZoZASme9TXTF61",
       "is_lifetime_member": true
-    },
-    {
+    },{
       "name": "iw04",
       "owner_key": "REX5ShHzPDj4vcfx3FqtwuL4nAm83H9sLfhkZV6cgSJQNaRBX5YAi",
       "active_key": "REX5vU9JDkeLEWSxyv5GAx1qFKFVw2kLkJsuqGjmv6VuQjtjmpkVX",
       "is_lifetime_member": true
-    },
-    {
+    },{
       "name": "iw05",
       "owner_key": "REX5MBzFpHh1pkteznajh5YW9sXLQ1Fo6R5LLnWRHW9ezyEFhva7c",
       "active_key": "REX7PFmzQH2Y3hrps1Quxru8QExTJbyWVKAPhJiLDWtfFuXKzxye9",
       "is_lifetime_member": true
-    },
-    {
+    },{
       "name": "im01",
       "owner_key": "REX8BEie5qMC2M5UKuQdTtGZZ1Q7nNJFY4nYm2SZyp36kCe8zmLZF",
       "active_key": "REX73fjEso8nUuS6ydvEb8kppaH6SiM5NonMNtUgYJGwszsyUD3b4",
       "is_lifetime_member": true
-    },
-    {
+    },{
       "name": "im02",
       "owner_key": "REX7uVkS7KFnPEd86CU73Ss6ZWCpSdBBcXnNQEsd1JDnZynD8bJQ2",
       "active_key": "REX7FnYMFf6hXzaC2XrrbdCLWFi2L7UCgY2pYSfUH4fhQLVusjtM2",
       "is_lifetime_member": true
-    },
-    {
+    },{
       "name": "im03",
       "owner_key": "REX8AbZQb37J9bTwPci2WMsteLxbcCPFwzY96YENTiLwynDEbzkJN",
       "active_key": "REX7YfygP83EVgMEAMq8zY5ykNLf3bs97z7LBY7NiTTMfHyj4ejk2",
       "is_lifetime_member": true
-    },
-    {
+    },{
       "name": "im04",
       "owner_key": "REX8fUcgQGdHRB2KABgJcu8W8xhqPYbNZFy3jiREyTZfYjdJKJVUF",
       "active_key": "REX4yUtGWEvqq4whpye3Qcpcjth4x2jgxHNtKcTTBVjd4NhhbtsP2",
       "is_lifetime_member": true
-    },
-    {
+    },{
       "name": "im05",
       "owner_key": "REX7ZqpouvKhnacvGoJG52VPmVRxxHQc3o1edaaqb7eBANuZhznkH",
       "active_key": "REX7gPQE5aFx6YmBhq1ySNrBJvriX2qFW4jFjgGDN8xm8KosZ8En7",
       "is_lifetime_member": true
-    },
-    {
+    },{
       "name": "fed-bank",
       "owner_key": "REX6dMSGAKrvuw8FHJcfwpDfpm1EXokYJSXVwYFhFeeNuyie6Wbxj",
       "active_key": "REX52QDetweYShSxcshrfokHkWKUns1BBih9oHaPAnQPMZUSAy4jV",
       "is_lifetime_member": true
-    },
-    {
+    },{
       "name": "acct-reg",
       "owner_key": "REX6svcDpfbqaD5bDQ7borRHgcaEaXWYxkw7V5Y8v72BREsnQRDs3",
       "active_key": "REX4vJumXfsbCwtTXdy2BADP9LFvUYhxgPceNjaGbKKK1YG5CX8Ek",
       "is_lifetime_member": true
-    },
-    {
+    },{
       "name": "chainb-com",
       "owner_key": "REX8G9qXxBfCHdcNUeaFYDsGfewmUtj73eDh9nXaRtKUEmTVwND18",
       "active_key": "REX7Hq9WBUotmQWtDiu1PKrDS2jeuv88ZNptnjpfE5cv3tgWxocVr",
@@ -350,7 +333,6 @@
       "accumulated_fees": 0,
       "is_bitasset": false,
       "collateral_records": []
-
     }
   ],
   "initial_balances": [{
@@ -376,23 +358,23 @@
     },{
       "owner": "REXFp47RV53wvbtRst1w13ESfkNptCuHB7mj",
       "asset_symbol": "REX",
-      "amount": "1000000000"
+      "amount": 1000000000
     },{
       "owner": "REXAxkVmGuDcYywigQX7yXrCMeY89Sq8YxSY",
       "asset_symbol": "REX",
-      "amount": "1000000000"
+      "amount": 1000000000
     },{
       "owner": "REXNDp5zT2XX3vBGj9dRMWfwsSCGbZ17cWow",
       "asset_symbol": "REX",
-      "amount": "1000000000"
+      "amount": 1000000000
     },{
       "owner": "REXE9ZiiTRCX4e6APd1rGLbdc8HtMGWnoQ57",
       "asset_symbol": "REX",
-      "amount": "1000000000"
+      "amount": 1000000000
     },{
       "owner": "REXDhdJaDaTR2VMFeTmuJDXL5HnjwczHyXHL",
       "asset_symbol": "REX",
-      "amount": "1000000000"
+      "amount": 1000000000
     },{
       "owner": "REXF75wfwh7yPhcT4F72AeE3pUSebPAMKtVs",
       "asset_symbol": "REX",
