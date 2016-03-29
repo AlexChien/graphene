@@ -29,6 +29,7 @@ def main():
 
     out_wits = []
     out_keys = []
+    out_adds = []
 
     for i in range(opts.num):
         if opts.mname != "":
@@ -39,8 +40,10 @@ def main():
         prod = json.loads(prod_str)
         out_wits.append('witness-id = "1.6.'+str(opts.witness+i)+'"\n')
         out_keys.append("private-key = "+json.dumps([prod[0]["public_key"], prod[0]["private_key"]])+"\n")
+        out_adds.append(prod[0]["public_key"] + " => \"" + prod[0]["address"] +
+                "\"\n")
 
-    out_data = "".join(out_wits + ["\n"] + out_keys)
+    out_data = "".join(out_wits + ["\n"] + out_keys + ["\n"] + out_adds)
 
     if opts.output == "-":
         sys.stdout.write(out_data)
