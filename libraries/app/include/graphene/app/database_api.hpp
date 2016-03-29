@@ -280,6 +280,8 @@ class database_api
       /** @return all unclaimed balance objects for a set of addresses */
       vector<balance_object> get_balance_objects( const vector<address>& addrs )const;
 
+      vector<account_balance_object> get_asset_balance_objects( asset_id_type asset_id )const;
+
       vector<asset> get_vested_balances( const vector<balance_id_type>& objs )const;
 
       vector<vesting_balance_object> get_vesting_balances( account_id_type account_id )const;
@@ -606,6 +608,7 @@ FC_API(graphene::app::database_api,
    (get_account_balances)
    (get_named_account_balances)
    (get_balance_objects)
+   (get_asset_balance_objects)
    (get_vested_balances)
    (get_vesting_balances)
 

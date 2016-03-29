@@ -1,0 +1,469 @@
+{
+  "initial_timestamp": "2016-03-28T19:05:00",
+  "max_core_supply": "210000000000000",
+  "initial_parameters": {
+    "current_fees": {
+      "parameters": [[
+        0,{
+          "fee": 2000,
+          "price_per_kbyte": 1000
+        }
+      ],[
+        1,{
+          "fee": 5000
+        }
+      ],[
+        2,{
+          "fee": 0
+        }
+      ],[
+        3,{
+          "fee": 2000
+        }
+      ],[
+        4,{}
+      ],[
+        5,{
+          "basic_fee": 5000,
+          "premium_fee": 20000,
+          "price_per_kbyte": 1000
+        }
+      ],[
+        6,{
+          "fee": 2000,
+          "price_per_kbyte": 1000
+        }
+      ],[
+        7,{
+          "fee": 3000
+        }
+      ],[
+        8,{
+          "membership_annual_fee": 2000,
+          "membership_lifetime_fee": 10000
+        }
+      ],[
+        9,{
+          "fee": 50000
+        }
+      ],[
+        10,{
+          "symbol3": "50000000000",
+          "symbol4": "30000000000",
+          "long_symbol": 50000,
+          "price_per_kbyte": 10
+        }
+      ],[
+        11,{
+          "fee": 50000,
+          "price_per_kbyte": 10
+        }
+      ],[
+        12,{
+          "fee": 50000
+        }
+      ],[
+        13,{
+          "fee": 50000
+        }
+      ],[
+        14,{
+          "fee": 20000,
+          "price_per_kbyte": 1000
+        }
+      ],[
+        15,{
+          "fee": 2000
+        }
+      ],[
+        16,{
+          "fee": 1000
+        }
+      ],[
+        17,{
+          "fee": 1000
+        }
+      ],[
+        18,{
+          "fee": 5000
+        }
+      ],[
+        19,{
+          "fee": 1000
+        }
+      ],[
+        20,{
+          "fee": 50000
+        }
+      ],[
+        21,{
+          "fee": 20000
+        }
+      ],[
+        22,{
+          "fee": 20000,
+          "price_per_kbyte": 10
+        }
+      ],[
+        23,{
+          "fee": 20000,
+          "price_per_kbyte": 10
+        }
+      ],[
+        24,{
+          "fee": 1000
+        }
+      ],[
+        25,{
+          "fee": 1000
+        }
+      ],[
+        26,{
+          "fee": 1000
+        }
+      ],[
+        27,{
+          "fee": 2000,
+          "price_per_kbyte": 10
+        }
+      ],[
+        28,{
+          "fee": 0
+        }
+      ],[
+        29,{
+          "fee": 50000
+        }
+      ],[
+        30,{
+          "fee": 20000
+        }
+      ],[
+        31,{
+          "fee": 1000
+        }
+      ],[
+        32,{
+          "fee": 1000
+        }
+      ],[
+        33,{
+          "fee": 20000
+        }
+      ],[
+        34,{
+          "fee": 50000
+        }
+      ],[
+        35,{
+          "fee": 1000,
+          "price_per_kbyte": 10
+        }
+      ],[
+        36,{
+          "fee": 1000
+        }
+      ],[
+        37,{}
+      ],[
+        38,{
+          "fee": 2000,
+          "price_per_kbyte": 10
+        }
+      ],[
+        39,{
+          "fee": 5000,
+          "price_per_output": 5000
+        }
+      ],[
+        40,{
+          "fee": 5000,
+          "price_per_output": 5000
+        }
+      ],[
+        41,{
+          "fee": 5000
+        }
+      ],[
+        42,{}
+      ],[
+        43,{
+          "fee": 20000
+        }
+      ]
+    ],
+    "scale": 10000
+    },
+    "block_interval": 3,
+    "maintenance_interval": 86400,
+    "maintenance_skip_slots": 3,
+    "committee_proposal_review_period": 1209600,
+    "maximum_transaction_size": 2048,
+    "maximum_block_size": 2048000000,
+    "maximum_time_until_expiration": 86400,
+    "maximum_proposal_lifetime": 2419200,
+    "maximum_asset_whitelist_authorities": 10,
+    "maximum_asset_feed_publishers": 10,
+    "maximum_witness_count": 101,
+    "maximum_committee_count": 101,
+    "maximum_authority_membership": 10,
+    "reserve_percent_of_fee": 2000,
+    "network_percent_of_fee": 2000,
+    "lifetime_referrer_percent_of_fee": 3000,
+    "cashback_vesting_period_seconds": 31536000,
+    "cashback_vesting_threshold": 10000000,
+    "count_non_member_votes": true,
+    "allow_non_member_whitelists": false,
+    "witness_pay_per_block": 0,
+    "worker_budget_per_day": "50000",
+    "max_predicate_opcode": 1,
+    "fee_liquidation_threshold": 10000000,
+    "accounts_per_fee_scale": 1000,
+    "account_fee_scale_bitshifts": 4,
+    "max_authority_depth": 2,
+    "extensions": []
+  },
+  "initial_accounts": [{
+      "name": "fed-reserve-01",
+      "owner_key": "REX7p7w3xAhEZmEANE3Zz8mFwMj9PcPHK1SphZebMuZzbNTXGF816",
+      "active_key": "REX8EbYnS2GRzfUd6AuPQQsudHyAy8YZ4bFeKTj29rz8XeauDZimP",
+      "is_lifetime_member": true
+    },
+    {
+      "name": "fed-reserve-02",
+      "owner_key": "REX7XiNpJo8YqQA169qKXghrHPxS4ytvJFybch9LpvSU25pVpAyCi",
+      "active_key": "REX5KjcFbmAebhrYDAFNUA8MzNMT993xYhy7U6Z6kf589Vs2S1pC1",
+      "is_lifetime_member": true
+    },
+    {
+      "name": "fed-reserve-03",
+      "owner_key": "REX5CLDWWTESvFmAZL36rkxL2BXuPpghY32ytPg1jSd97JpbpSfjn",
+      "active_key": "REX74dqZRQmZxn7je9Lde3yZrdYgtwBeoozxY6Y29ZCVEkMrJBnfV",
+      "is_lifetime_member": true
+    },
+    {
+      "name": "fed-reserve-04",
+      "owner_key": "REX64XWanE7xt3jB6p6RqfNhG3vjKTsKfw6uM9Y4K9B2ShgUQZf1R",
+      "active_key": "REX56w9m3MTwJweVQQePa1RzpYevdLqy7FbiMBBqHXLnmtX1jpvkC",
+      "is_lifetime_member": true
+    },
+    {
+      "name": "fed-reserve-05",
+      "owner_key": "REX5Ng7xL8KUQAotxNZr6iaTKPWvKGXVeBGUS87ETzmL9h2XXCg2Y",
+      "active_key": "REX6TpE3JSLuCmFnuzNRBXUWzGosiPu643VsR9Si53ypxV7yiPt5U",
+      "is_lifetime_member": true
+    },
+    {
+      "name": "iw01",
+      "owner_key": "REX4xQj2fV4BGzCYYwFr2ryoo1MYZzHLfXMd3qsXttwXdCi3ZeYwK",
+      "active_key": "REX86tMUFmUWa2XmUaW2DDDaBF1fhVEoVwrjPmficWgQZPh4o4TMZ",
+      "is_lifetime_member": true
+    },
+    {
+      "name": "iw02",
+      "owner_key": "REX71e3V61cAqa1gbM5gNYzpkJG5GLH47ZUJW12zjfWvjft8MLpZT",
+      "active_key": "REX5K6S9amLC3XAgK4Xr9pzrNsk9kQ2oFENqh8XnUqEuNpJfh4Um3",
+      "is_lifetime_member": true
+    },
+    {
+      "name": "iw03",
+      "owner_key": "REX76rsAn9ThskZ74n6n9R2aN4iXS7yEsxX6HhAx49VCLYmAqLHmn",
+      "active_key": "REX5RQW4BTQNPzgkyW7ZCaw6uVYStYuP42V4weSZoZASme9TXTF61",
+      "is_lifetime_member": true
+    },
+    {
+      "name": "iw04",
+      "owner_key": "REX5ShHzPDj4vcfx3FqtwuL4nAm83H9sLfhkZV6cgSJQNaRBX5YAi",
+      "active_key": "REX5vU9JDkeLEWSxyv5GAx1qFKFVw2kLkJsuqGjmv6VuQjtjmpkVX",
+      "is_lifetime_member": true
+    },
+    {
+      "name": "iw05",
+      "owner_key": "REX5MBzFpHh1pkteznajh5YW9sXLQ1Fo6R5LLnWRHW9ezyEFhva7c",
+      "active_key": "REX7PFmzQH2Y3hrps1Quxru8QExTJbyWVKAPhJiLDWtfFuXKzxye9",
+      "is_lifetime_member": true
+    },
+    {
+      "name": "im01",
+      "owner_key": "REX8BEie5qMC2M5UKuQdTtGZZ1Q7nNJFY4nYm2SZyp36kCe8zmLZF",
+      "active_key": "REX73fjEso8nUuS6ydvEb8kppaH6SiM5NonMNtUgYJGwszsyUD3b4",
+      "is_lifetime_member": true
+    },
+    {
+      "name": "im02",
+      "owner_key": "REX7uVkS7KFnPEd86CU73Ss6ZWCpSdBBcXnNQEsd1JDnZynD8bJQ2",
+      "active_key": "REX7FnYMFf6hXzaC2XrrbdCLWFi2L7UCgY2pYSfUH4fhQLVusjtM2",
+      "is_lifetime_member": true
+    },
+    {
+      "name": "im03",
+      "owner_key": "REX8AbZQb37J9bTwPci2WMsteLxbcCPFwzY96YENTiLwynDEbzkJN",
+      "active_key": "REX7YfygP83EVgMEAMq8zY5ykNLf3bs97z7LBY7NiTTMfHyj4ejk2",
+      "is_lifetime_member": true
+    },
+    {
+      "name": "im04",
+      "owner_key": "REX8fUcgQGdHRB2KABgJcu8W8xhqPYbNZFy3jiREyTZfYjdJKJVUF",
+      "active_key": "REX4yUtGWEvqq4whpye3Qcpcjth4x2jgxHNtKcTTBVjd4NhhbtsP2",
+      "is_lifetime_member": true
+    },
+    {
+      "name": "im05",
+      "owner_key": "REX7ZqpouvKhnacvGoJG52VPmVRxxHQc3o1edaaqb7eBANuZhznkH",
+      "active_key": "REX7gPQE5aFx6YmBhq1ySNrBJvriX2qFW4jFjgGDN8xm8KosZ8En7",
+      "is_lifetime_member": true
+    },
+    {
+      "name": "fed-bank",
+      "owner_key": "REX6dMSGAKrvuw8FHJcfwpDfpm1EXokYJSXVwYFhFeeNuyie6Wbxj",
+      "active_key": "REX52QDetweYShSxcshrfokHkWKUns1BBih9oHaPAnQPMZUSAy4jV",
+      "is_lifetime_member": true
+    },
+    {
+      "name": "acct-reg",
+      "owner_key": "REX6svcDpfbqaD5bDQ7borRHgcaEaXWYxkw7V5Y8v72BREsnQRDs3",
+      "active_key": "REX4vJumXfsbCwtTXdy2BADP9LFvUYhxgPceNjaGbKKK1YG5CX8Ek",
+      "is_lifetime_member": true
+    },
+    {
+      "name": "chainb-com",
+      "owner_key": "REX8G9qXxBfCHdcNUeaFYDsGfewmUtj73eDh9nXaRtKUEmTVwND18",
+      "active_key": "REX7Hq9WBUotmQWtDiu1PKrDS2jeuv88ZNptnjpfE5cv3tgWxocVr",
+      "is_lifetime_member": true
+    }
+  ],
+  "initial_assets": [{
+      "symbol": "CNY",
+      "issuer_name": "fed-bank",
+      "description": "Federal Central Bank Issued CNY",
+      "precision": 2,
+      "max_supply": "210000000000",
+      "accumulated_fees": 0,
+      "is_bitasset": false,
+      "collateral_records": []
+    },{
+      "symbol": "CHAINB",
+      "issuer_name": "chainb-com",
+      "description": "Token representing company shares of chainb.com",
+      "precision": 4,
+      "max_supply": "100000000000",
+      "accumulated_fees": 0,
+      "is_bitasset": false,
+      "collateral_records": []
+
+    }
+  ],
+  "initial_balances": [{
+      "owner": "REXF8AnHAiWmgcJ5D32U3JZjiTuRwi59ChuW",
+      "asset_symbol": "REX",
+      "amount": "36695000000000"
+    },{
+      "owner": "REXAY762sYLZ62ByNVwQ6xvuE56qnC7QZDWr",
+      "asset_symbol": "REX",
+      "amount": "42000000000000"
+    },{
+      "owner": "REX2zKvTJak5LbAmMJoiHtHzX94itEpux1n7",
+      "asset_symbol": "REX",
+      "amount": "42000000000000"
+    },{
+      "owner": "REXF663s1RrddB4Nv4Jzjavwho9obQp8Ki3Q",
+      "asset_symbol": "REX",
+      "amount": "42000000000000"
+    },{
+      "owner": "REX3tpMD3YqCDEJYU2VNjuProX5Qq31Soyyz",
+      "asset_symbol": "REX",
+      "amount": "42000000000000"
+    },{
+      "owner": "REXFp47RV53wvbtRst1w13ESfkNptCuHB7mj",
+      "asset_symbol": "REX",
+      "amount": "1000000000"
+    },{
+      "owner": "REXAxkVmGuDcYywigQX7yXrCMeY89Sq8YxSY",
+      "asset_symbol": "REX",
+      "amount": "1000000000"
+    },{
+      "owner": "REXNDp5zT2XX3vBGj9dRMWfwsSCGbZ17cWow",
+      "asset_symbol": "REX",
+      "amount": "1000000000"
+    },{
+      "owner": "REXE9ZiiTRCX4e6APd1rGLbdc8HtMGWnoQ57",
+      "asset_symbol": "REX",
+      "amount": "1000000000"
+    },{
+      "owner": "REXDhdJaDaTR2VMFeTmuJDXL5HnjwczHyXHL",
+      "asset_symbol": "REX",
+      "amount": "1000000000"
+    },{
+      "owner": "REXF75wfwh7yPhcT4F72AeE3pUSebPAMKtVs",
+      "asset_symbol": "REX",
+      "amount": "1000000000000"
+    },{
+      "owner": "REXDcyMPzSkXzxfMeXGnQr6rZbpimsAxmehB",
+      "asset_symbol": "REX",
+      "amount": "1000000000000"
+    },{
+      "owner": "REXAtetxUq7cmST6fBWXdf6KKTEPccmyVzcK",
+      "asset_symbol": "REX",
+      "amount": "1000000000000"
+    },{
+      "owner": "REX5E5hEk95FAqbFtkfkyCLy4g6GU6SDHrHQ",
+      "asset_symbol": "REX",
+      "amount": "1000000000000"
+    },{
+      "owner": "REXSzkRUHTJ9mcPsnwf1fcQFbD7vxuiBj7N",
+      "asset_symbol": "REX",
+      "amount": "1000000000000"
+    },{
+      "owner": "REXCfdTiJuEe7dSo8JokWMXYsak3kNWBBhbF",
+      "asset_symbol": "REX",
+      "amount": "100000000000"
+    },{
+      "owner": "REX7fXWFC8Kyn89agqfin8uPoPEHttBjPBhq",
+      "asset_symbol": "REX",
+      "amount": "100000000000"
+    },{
+      "owner": "REX9Pz28rM8SmmAPjxgBcjLgvNtQmAbZVh5p",
+      "asset_symbol": "REX",
+      "amount": "100000000000"
+    }
+  ],
+  "initial_vesting_balances": [],
+  "initial_active_witnesses": 5,
+  "initial_witness_candidates": [{
+      "owner_name": "iw01",
+      "block_signing_key": "REX76NoakUi7a9bufmXNpDh8uGx7zbh1eLBBSEbKwFJoerZPfmHpp"
+    },{
+      "owner_name": "iw02",
+      "block_signing_key": "REX8gChBrnudXCCAdr6pN8H2BhRwaz3KtV7UR2GmYAotbvKKgHZaA"
+    },{
+      "owner_name": "iw03",
+      "block_signing_key": "REX84ek9t9ayweFADfafiScbhTptvY21oK6Uy6WeArYLqeZGN4E5c"
+    },{
+      "owner_name": "iw04",
+      "block_signing_key": "REX8VFket9DWQZG5fuPxSodVqMSN5WPczBQMWwQYBVvLiJGvEfHsn"
+    },{
+      "owner_name": "iw05",
+      "block_signing_key": "REX5TuakfQWVZ1TpPMSBnLzA2g13i7gWgDvn2KuF6baTe93M8aoXD"
+    }
+  ],
+  "initial_committee_candidates": [{
+      "owner_name": "im01"
+    },{
+      "owner_name": "im02"
+    },{
+      "owner_name": "im03"
+    },{
+      "owner_name": "im04"
+    },{
+      "owner_name": "im05"
+    }
+  ],
+  "initial_worker_candidates": [],
+  "initial_chain_id": "cff531969052004391352997570a9bd34a4d7b61cc5610e2488789bf21c121bf",
+  "immutable_parameters": {
+    "min_committee_member_count": 3,
+    "min_witness_count": 3,
+    "num_special_accounts": 0,
+    "num_special_assets": 0
+  }
+}

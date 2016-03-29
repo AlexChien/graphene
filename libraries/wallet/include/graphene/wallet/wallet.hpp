@@ -1267,6 +1267,12 @@ class wallet_api
        */
       vector< vesting_balance_object_with_info > get_vesting_balances( string account_name );
 
+
+
+      vector<account_balance_object> get_asset_balance_objects( asset_id_type asset_id );
+
+      vector<balance_object> get_balance_objects( const vector<address>& addrs );
+
       /**
        * Withdraw a vesting balance.
        *
@@ -1599,6 +1605,8 @@ FC_API( graphene::wallet::wallet_api,
         (create_worker)
         (update_worker_votes)
         (get_vesting_balances)
+        (get_asset_balance_objects)
+        (get_balance_objects)
         (withdraw_vesting)
         (vote_for_committee_member)
         (vote_for_witness)

@@ -135,6 +135,38 @@ namespace detail {
             }
          }
 
+         if( _options->count("seed-nodes") )
+         {
+            auto seeds_str = _options->at("seed-nodes").as<string>();
+            auto seeds = fc::json::from_string(seeds_str).as<vector<string>>();
+            for( const string& endpoint_string : seeds )
+            {
+               std::vector<fc::ip::endpoint> endpoints = resolve_string_to_ip_endpoints(endpoint_string);
+               for (const fc::ip::endpoint& endpoint : endpoints)
+               {
+                  ilog("Adding seed node ${endpoint}", ("endpoint", endpoint));
+                  _p2p_network->add_node(endpoint);
+               }
+            }
+         }
+         else
+         {
+            vector<string> seeds = {
+               "139.196.242.15:1786", // rexsh
+               "123.57.145.112:1786", // rexbj
+               "47.89.55.68:1786" 		// rexhk
+            };
+            for( const string& endpoint_string : seeds )
+            {
+               std::vector<fc::ip::endpoint> endpoints = resolve_string_to_ip_endpoints(endpoint_string);
+               for (const fc::ip::endpoint& endpoint : endpoints)
+               {
+                  ilog("Adding seed node ${endpoint}", ("endpoint", endpoint));
+                  _p2p_network->add_node(endpoint);
+               }
+            }
+         }
+
          if( _options->count("p2p-endpoint") )
             _p2p_network->listen_on_endpoint(fc::ip::endpoint::from_string(_options->at("p2p-endpoint").as<string>()), true);
          else
