@@ -358,23 +358,23 @@
     },{
       "owner": "REXFp47RV53wvbtRst1w13ESfkNptCuHB7mj",
       "asset_symbol": "REX",
-      "amount": 1000000000
+      "amount": "1000000000"
     },{
       "owner": "REXAxkVmGuDcYywigQX7yXrCMeY89Sq8YxSY",
       "asset_symbol": "REX",
-      "amount": 1000000000
+      "amount": "1000000000"
     },{
       "owner": "REXNDp5zT2XX3vBGj9dRMWfwsSCGbZ17cWow",
       "asset_symbol": "REX",
-      "amount": 1000000000
+      "amount": "1000000000"
     },{
       "owner": "REXE9ZiiTRCX4e6APd1rGLbdc8HtMGWnoQ57",
       "asset_symbol": "REX",
-      "amount": 1000000000
+      "amount": "1000000000"
     },{
       "owner": "REXDhdJaDaTR2VMFeTmuJDXL5HnjwczHyXHL",
       "asset_symbol": "REX",
-      "amount": 1000000000
+      "amount": "1000000000"
     },{
       "owner": "REXF75wfwh7yPhcT4F72AeE3pUSebPAMKtVs",
       "asset_symbol": "REX",
@@ -441,7 +441,7 @@
     }
   ],
   "initial_worker_candidates": [],
-  "initial_chain_id": "ggg531969052004391352997570a9bd34a4d7b61cc5610e2488789bf21c121bf",
+  "initial_chain_id": "fff531969052004391352997570a9bd34a4d7b61cc5610e2488789bf21c121bf",
   "immutable_parameters": {
     "min_committee_member_count": 3,
     "min_witness_count": 3,
